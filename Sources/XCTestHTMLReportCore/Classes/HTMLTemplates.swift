@@ -1003,7 +1003,6 @@ struct HTMLTemplates
   """
 
   static let test = """
-  [[SCREENSHOT_TAIL]]
   <div class=\"[[ITEM_CLASS]] [[ICON_CLASS]] [[HAS_ACTIVITIES_CLASS]]\">
     <span class=\"icon left test-result-icon\"></span>
     <p class=\"[[LIST_ITEM_CLASS]]\">
@@ -1013,7 +1012,6 @@ struct HTMLTemplates
     </p>
     [[SUB_TESTS]]
     <div id=\"activities-[[UUID]]\" class=\"activities\">
-    [[SCREENSHOT_FLOW]]
     [[ACTIVITIES]]
     </div>
   </div>
